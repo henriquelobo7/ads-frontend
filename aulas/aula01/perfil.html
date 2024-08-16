@@ -3,38 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/035fff1afa.js" crossorigin="anonymous"></script>
+    <title>Perfil - Aluno Online</title>
     <link rel="stylesheet" href="style.css">
-    <title>Aluno Online</title>
 </head>
 <body>
     <header>
-        <img src="" alt="Logo da Aplicação">
-        <h1>Aluno Online</h1>
-        <button>
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
+        <div>
+            <img src="https://www.svgrepo.com/show/411955/learn.svg" alt="Logo da Aplicação">
+            <h1>Aluno Online</h1>
+        </div>
+        <div>
+            <input type="search" name="search" placeholder="Pesquisar...">
+            <img src="https://www.svgrepo.com/show/507851/search-square.svg" alt="Ícone de Pesquisar">
+        </div>
     </header>
     <main>
         <nav>
             <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./perfil.html">Perfil</a></li>
-                <li><a href="./login.html">Sair</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="login.html">Sair</a></li>
             </ul>
         </nav>
-        <form action="" method="post">
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name" required>
-            <br><br>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" required>
-            <br><br>
-            <label for="senha">Senha</label>
-            <input type="password" name="password" id="pasword" required>
-            <br><br>
-            <button>Submit</button>
-        </form>
+        <section>
+            <h2>Perfil do Aluno</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Nome: </label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="password">Senha: </label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div>
+                    <input type="submit" value="save">
+                </div>
+            </form>
+        </section>
     </main>
 </body>
 </html>

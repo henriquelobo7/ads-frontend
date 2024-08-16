@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/035fff1afa.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./login.html">
-    <link rel="stylesheet" href="./home.html">
-    <link rel="stylesheet" href="./perfil.html">
-    <title>Aluno Online</title>
+    <title>Login - Aluno Online</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <img src="" alt="Logo da Aplicação">
+    <main class="login-container">
+        <img src="https://www.svgrepo.com/show/411955/learn.svg" alt="Logo da Aplicação">
         <h1>Aluno Online</h1>
-        <form action="" method="post">
-            <label for="email">E-mail: </label>
-            <input type="email" name="email" id="email" required>
-            <br><br>
-            <label for="senha">Senha: </label>
-            <input type="password" name="senha" id="senha" required>
-            <br><br>
-            <button>
-                <a href="./home.html">Entrar</a>
-            </button>
-            <br><br>
-            <a href="">Esqueceu sua senha?</a>
+        <form action="home.html" method="get">
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">Senha: </label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <input type="submit" value="Login">
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
         </form>
     </main>
-    <br>
-    <footer>Copyright &copy; 2024</footer>
+    <footer>
+        Copyright &copy; 2024
+    </footer>
 </body>
 </html>
