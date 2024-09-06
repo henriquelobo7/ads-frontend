@@ -5,18 +5,19 @@ import InputEmail from '../components/InputEmail'
 import InputPassword from '../components/InputPassword'
 import Button from '../components/Button'
 import Link from '../components/Link'
+import Content from '../components/Content'
 
 function Login() {
     return (
         <>
-            <main>
-                <Logo/>
-                <Title/>
+            <Content>
+                <Logo image="https://www.svgrepo.com/show/411955/learn.svg" text="Logo da Aplicação"/>
+                <Title text="Aluno Online"/>
                 <InputEmail/>
                 <InputPassword/>
-                <Button/>
-                <Link/>
-            </main>
+                <Button text="Entrar"/>
+                <Link text="Esqueceu a senha?"/>
+            </Content>
             <Footer/>
         </>
     )

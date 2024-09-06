@@ -1,6 +1,6 @@
-function Title() {
+function Title(props) {
     return (
-        <h1>Aluno Online</h1>
+        <h1>{props.text}</h1>
     )
 }
 
