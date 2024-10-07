@@ -3,7 +3,7 @@ import Login from "./pages/Login";
 import Profile from "./pages/Profile";
 
 function App() {
-  const index = 2;
+  const index = 3;
 
   return (
     <>
